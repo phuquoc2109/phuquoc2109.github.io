@@ -1,0 +1,643 @@
+/*------------------RESET CSS ---------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------- FONT ----------------------- */
+@font-face{
+	font-family: 'circular-light';
+	src: url('../fonts/circular-light.woff2');
+}
+
+@font-face{
+	font-family: 'circular-book';
+	src: url('../fonts/circular-book.woff2');
+}
+
+body{
+	margin: 0 auto;
+	font-family: 'circular-light';
+}
+
+
+/*--------------- HEADER ----------------------*/
+
+#agentcy{
+	background-image: url('../img/header.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+	height: 880px;
+	margin: 0 auto;
+}
+
+#menu{
+	width: 100%;
+	height: 115px;
+	border-bottom: 1px solid #7b7b7b;
+}
+
+
+#logo img{
+	margin: 19px;
+}
+
+#main-menu ul li{
+	float: left;
+	line-height: 108px;
+	padding: 0 15px;
+	color: #fff;
+	margin-right: 15px;
+}
+
+#main-menu ul li:hover{
+	border-bottom: solid 6px #11749e;
+	cursor: pointer;
+}
+
+#main-menu ul{
+	overflow: hidden;
+	justify-content: center;
+    display: flex;
+}
+
+#main-menu{
+	vertical-align: top;
+}
+
+#social-icon ul li{
+	font-family: 'FontAwesome';
+	float: left;
+	line-height: 86px;
+	color: #fff;
+	padding: 14px;
+}
+
+#social-icon ul li:hover{
+	color: #11749e;
+	cursor: pointer;
+}
+
+#social-icon ul{
+	overflow: hidden;
+}
+
+#social-icon{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#slogan p{
+	font-family: circular-book;
+	text-align: center;
+	font-size: 100px;
+	color: #fff;
+	margin-top: 200px;
+}
+
+#slogan h6{
+	text-align: center;
+	font-size: 30px;
+	color: #11749e;
+	margin-top: 20px;
+	letter-spacing: 10px;
+}
+
+#scroll-down p{
+	margin-top: 100px;
+	text-align: center;
+	color: #fff;
+}
+
+#scroll-down-arrow{
+	width: 65px;
+	height: 65px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 30px auto;
+	cursor: pointer;
+}
+
+#scroll-down-arrow:before{
+	font-family: 'FontAwesome';
+	position: absolute;
+	content: '\f107';
+	font-size: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+/*--------------------- ABOUT AGENCY -------------------*/
+#about-agency{
+	width: 100%;
+	height: 740px;
+	background: #11749e;
+}
+
+#title-about-agency p{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	margin-top: -100px;
+	letter-spacing: 2px;
+}
+
+
+#title-about-agency h6{
+	font-family: 'circular-book';
+	font-size: 180px;
+	font-weight: bold;
+	color: #3c8daf;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#introduce-agency{
+	margin-top: 195px;
+}
+
+#introduce-agency h6{
+	margin-top: 25px;
+	margin-bottom: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+#introduce-agency p{
+	color: #fff;
+}
+
+#introduce-agency ul{
+	overflow: hidden;
+	justify-content: center;
+	display: flex;
+}
+
+#introduce-agency ul li{
+	width: 25%;
+	float: left;
+	padding: 0 15px;
+}
+
+#icon-agency-one, #icon-agency-two, #icon-agency-three, #icon-agency-four{
+	width: 133px;
+	height: 133px;
+	background-color: #2e85aa;
+	border-radius: 50%;	
+	margin: 0 auto;
+}
+
+#icon-agency-one:before, #icon-agency-two:before, #icon-agency-three:before, #icon-agency-four:before{
+	font-family: 'FontAwesome';
+	position: absolute;
+	font-size: 35px;
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#icon-agency-one:before{
+	content: '\f044';
+}
+
+#icon-agency-two:before{
+	content: '\f02e';
+}
+
+#icon-agency-three:before{
+	content: '\f002';
+}
+
+#icon-agency-four:before{
+	content: '\f075';
+}
+
+/*--------------------- NEWS --------------------*/
+#news-style-one, #news-style-two{
+	width: 100%;
+	height: 447px;
+	overflow: hidden;
+}
+
+#news-one-right{
+	width: 50%;
+	height: 100%;
+	background-color: #222222;
+	float: left;
+}
+
+#news-one-left{
+	height: 100%;
+	background-color: #222222;
+	width: 50%;
+	float: left;
+	padding-left: 20%;	
+}
+
+#news-one-right{
+	background-image: url('../img/news1.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#news-one-left p:nth-child(1){
+	padding-top: 82px;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+ #news-two-right p:nth-child(1){
+ 	padding-top: 82px;
+	color: #000;
+	font-size: 12px;
+	letter-spacing: 1px;
+ }
+
+#news-one-left h6 {
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 31px;
+	font-size: 21px;
+}
+
+#news-two-right h6{
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 31px;
+	font-size: 21px;
+
+}
+
+#news-two-right p:nth-child(3){
+	margin-top: 62px;
+	color: #000;
+	padding-right: 119px;
+}
+
+#news-one-left p:nth-child(3){
+	margin-top: 62px;
+	color: #fff;
+	padding-right: 119px;
+}
+#news-two-left, #news-two-right{
+	width: 50%;
+	height: 100%;
+	background-color: #f3f3f3;
+	float: left;
+	padding: 0 14% 0 7.5%;
+}
+
+#news-two-left{
+	background-image: url('../img/news2.png');
+}
+
+/*------------------------- BLOG -----------------*/
+#blog{
+	width: 100%;
+	height: 1017px;
+}
+
+#title-blog h6{
+	font-family: 'circular-book';
+	font-size: 180px;
+	font-weight: bold;
+	color: #d7d7d7;
+	text-align: center;
+	padding-top: 92px;
+}
+
+#title-blog p{
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+	margin-top: -100px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#title-blog h5{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+#content-blog{
+	width: 100%;
+	margin: 96px auto 0 auto;
+}
+
+#content-blog ul{
+	overflow: hidden;
+}
+
+#content-blog ul li{
+	float: left;
+	width: 25%;
+	padding: 0 11px;
+}
+
+#content-blog h6{
+	margin-top: 44px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*---------------- ACTION -------------------*/
+#action{
+	width: 100%;
+	height: 355px;
+	background-color: #11749e;
+}
+
+#action ul{
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 113px;
+}
+
+#action ul li{
+	float: left;
+	padding-left: 7%;
+	width: 48%;
+	color: #fff;
+	line-height: 20px;
+}
+#action ul li:nth-child(1){
+	margin-right: 4%;
+}
+#action ul li:before{
+	font-family: 'FontAwesome';
+    position: absolute;
+    font-size: 70px;
+    content: '\f044';
+    margin-top: 44px;
+    margin-left: -75px;
+}
+
+/*--------------------- AKITA ---------------------*/
+#akita{
+	width: 100%;
+	height: 850px;
+	background-image: url('../img/akita.png');
+}
+
+#akita h1{
+	font-family: 'circular-book';
+	padding-top: 228px;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#akita p{
+	color: #fff;
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 23px;
+	letter-spacing: 1px;
+	margin-bottom: 100px;
+}
+
+#akita span{
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 25px;
+    padding-right: 40px;
+    width: 65%;
+    margin-bottom: 30px;
+    background-color: #11749e;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#akita span:nth-child(4){
+	width: 50%;
+}
+
+#akita span:nth-child(3){
+	width: 35%;
+}
+
+/*--------------------- OUR TEAM ----------------*/
+
+#our-team{
+	width: 100%;
+	height: 945px;
+}
+
+#title-our-team h6{
+	font-family: 'circular-book';
+	font-size: 180px;
+	font-weight: bold;
+	color: #d7d7d7;
+	text-align: center;
+	padding-top: 92px;
+}
+
+#title-our-team p{
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+	margin-top: -100px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#title-our-team h5{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+#content-our-team{
+	margin: 75px auto 0 auto;
+}
+
+#content-our-team ul{
+	overflow: hidden;
+}
+
+#content-our-team ul li{
+	float: left;
+	margin-right: 30px;
+}
+
+#content-our-team ul li:nth-child(4){
+	margin-right: 0;
+}
+
+#label-our{
+	height: 130px;
+	background-color: #fff;
+	width: 80%;
+	margin: -50px auto;
+	position: relative;
+}
+
+#label-our #name-team{
+	text-align: center;
+	color: #11749e;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#label-our #staff-team{
+	font-family: 'circular-book';
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	padding-top: 15px;
+}
+
+/*--------------------- CONTACT US -------------------*/
+ #contact-us{
+	width: 100%;
+	height: 850px;
+	background-image: url('../img/contact-us.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title-contact-us h6{
+	font-family: 'circular-book';
+	font-size: 180px;
+	font-weight: bold;
+	color: #d7d7d7;
+	text-align: center;
+	padding-top: 92px;
+	opacity: 0.1;
+}
+
+#title-contact-us p{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	margin-top: -100px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#content-contact-us{
+	margin-top: 150px;	
+}
+
+#content-contact-us form #ct-text, #content-contact-us form #ct-email, #content-contact-us form #ct-number{
+	width: 380px;
+	height: 45px;
+	background: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	font-family: 'circular-light';
+	color: #fff;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+#content-contact-us form input::placeholder, #content-contact-us form #ct-message::placeholder{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#content-contact-us form #ct-text, #content-contact-us form #ct-email{
+	margin-right: 10px;
+}
+
+#content-contact-us form #ct-message{
+	margin-top: 40px;
+	display: block;
+	width:  100%;;
+	height: 150px;
+	background: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#btn-submit{
+	display: block;
+	margin: 0 auto;
+	margin-top: 45px;
+	width: 225px;
+	height: 65px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	background: #11749e;
+	border: none;
+}
+
+/*----------------------- FOOTER --------------------*/
+#footer{
+	width: 100%;
+	height: 115px;
+	background: #272727;
+}
+
+#footer p{
+	line-height: 115px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
